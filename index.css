@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #ffd901;
+    color: #292929;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Roboto", cursive;
+    font-size: 1.5rem;
+  }
+  nav {
+    background-color: #1f1f1f;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+  #work {
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  #resume{
+    background-color: #353535;
+    color: #fff;
+  }
+
+  #resume a {
+    color: #fff;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    nav a {
+      padding: 10px 15px;
+    }
+    section {
+      padding: 10px;
+    }
+  }
+  h2 {
+    font-family: "Roboto", sans-serif;
+  }
+  p {
+    font-family: "ROboto", sans-serif;
+    text-align: justify;
+  }
+
+  form {
+    width: 100%;
+    align-items: center;
+  }
